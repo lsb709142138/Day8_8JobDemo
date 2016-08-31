@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/pinglun_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/back"
+        app:title="评论"
+        >
+
+    </android.support.v7.widget.Toolbar>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pinglun_activity_pullto_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#999"
+        android:dividerHeight = "1dp">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

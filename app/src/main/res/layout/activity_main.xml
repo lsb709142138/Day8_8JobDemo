@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ui.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/main_activity_radiogroup"
+        android:orientation="horizontal"
+        android:background="#323232"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/main_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/first_selector"
+            android:textSize="24sp"
+            android:button="@null"
+            android:gravity="center"/>
+        <RadioButton
+            android:id="@+id/main_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/second_selector"
+            android:textSize="24sp"
+            android:button="@null"
+            android:gravity="center"/>
+        <RadioButton
+            android:id="@+id/main_third"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/third_selector"
+            android:textSize="24sp"
+            android:button="@null"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/main_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/four_selector"
+            android:textSize="24sp"
+            android:button="@null"
+            android:gravity="center"/>
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/first_hot_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+        <TextView
+            android:id="@+id/viewpager_hot_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5A4D3B"
+            android:layout_alignParentBottom="true"
+            android:text="aaaaaaaaa"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <com.example.administrator.day8_8jobdemo.view.MyHotGridView
+        android:id="@+id/first_hot_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:numColumns="3"
+        >
+    </com.example.administrator.day8_8jobdemo.view.MyHotGridView>
+</LinearLayout>

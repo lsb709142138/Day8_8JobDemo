@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Day8_8JobDemo</string>
+    <string-array name="tablayout_content">
+        <item>热门连载</item>
+        <item>小编推荐</item>
+        <item>精彩港漫</item>
+        <item>最近更新</item>
+    </string-array>
+</resources>
